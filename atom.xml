@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangthird.github.io</id>
     <title>张山</title>
-    <updated>2022-02-25T15:20:59.352Z</updated>
+    <updated>2022-02-25T15:22:03.061Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangthird.github.io"/>
     <link rel="self" href="https://zhangthird.github.io/atom.xml"/>
-    <subtitle>&lt;h1&gt;春风又绿江南岸&lt;h1&gt;</subtitle>
+    <subtitle>&lt;h2&gt;春风又绿江南岸&lt;h2&gt;</subtitle>
     <logo>https://zhangthird.github.io/images/avatar.png</logo>
     <icon>https://zhangthird.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 张山</rights>
