@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/zhangthird/zhangthird.github.io</id>
+    <id>https://zhangthird.github.io</id>
     <title>zhangshan&apos;s blog</title>
-    <updated>2022-02-25T15:06:46.643Z</updated>
+    <updated>2022-02-25T15:10:46.330Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/zhangthird/zhangthird.github.io"/>
-    <link rel="self" href="https://github.com/zhangthird/zhangthird.github.io/atom.xml"/>
+    <link rel="alternate" href="https://zhangthird.github.io"/>
+    <link rel="self" href="https://zhangthird.github.io/atom.xml"/>
     <subtitle>&lt;h1&gt;春风又绿江南岸&lt;h1&gt;</subtitle>
-    <logo>https://github.com/zhangthird/zhangthird.github.io/images/avatar.png</logo>
-    <icon>https://github.com/zhangthird/zhangthird.github.io/favicon.ico</icon>
+    <logo>https://zhangthird.github.io/images/avatar.png</logo>
+    <icon>https://zhangthird.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, zhangshan&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[第一篇博客]]></title>
-        <id>https://github.com/zhangthird/zhangthird.github.io/post/di-yi-pian-bo-ke/</id>
-        <link href="https://github.com/zhangthird/zhangthird.github.io/post/di-yi-pian-bo-ke/">
+        <id>https://zhangthird.github.io/post/di-yi-pian-bo-ke/</id>
+        <link href="https://zhangthird.github.io/post/di-yi-pian-bo-ke/">
         </link>
         <updated>2022-02-25T12:13:33.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
@@ -22,8 +22,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://github.com/zhangthird/zhangthird.github.io/post/hello-gridea/</id>
-        <link href="https://github.com/zhangthird/zhangthird.github.io/post/hello-gridea/">
+        <id>https://zhangthird.github.io/post/hello-gridea/</id>
+        <link href="https://zhangthird.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
