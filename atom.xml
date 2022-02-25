@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangthird.github.io</id>
-    <title>zhangshan&apos;s blog</title>
-    <updated>2022-02-25T15:19:56.856Z</updated>
+    <title>张山</title>
+    <updated>2022-02-25T15:20:59.352Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangthird.github.io"/>
     <link rel="self" href="https://zhangthird.github.io/atom.xml"/>
     <subtitle>&lt;h1&gt;春风又绿江南岸&lt;h1&gt;</subtitle>
     <logo>https://zhangthird.github.io/images/avatar.png</logo>
     <icon>https://zhangthird.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, zhangshan&apos;s blog</rights>
+    <rights>All rights reserved 2022, 张山</rights>
     <entry>
         <title type="html"><![CDATA[第一篇博客]]></title>
         <id>https://zhangthird.github.io/post/di-yi-pian-bo-ke/</id>
