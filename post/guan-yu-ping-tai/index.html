@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | 张山</title>
+<title>关于平台 | 张山</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,22 @@
 <link rel="stylesheet" href="https://zhangthird.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="&lt;h2&gt;谁家新燕啄春泥&lt;h2&gt;">
+    <meta name="description" content="评论系统
+第一个
+https://blog.csdn.net/q434216555/article/details/110981924?spm=1001.2101.3001.6650.6&amp;utm_medium=distribute...." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -92,60 +101,38 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">关于平台</h2>
+            <div class="post-date">2022-02-27</div>
+            
+            <div class="post-content" v-pre>
+              <h2 id="评论系统">评论系统</h2>
+<p><a href="https://xie.infoq.cn/article/9e50cb5e9d179a179fc7fece4">第一个</a></p>
+<p>https://blog.csdn.net/q434216555/article/details/110981924?spm=1001.2101.3001.6650.6&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6.pc_relevant_antiscan&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6.pc_relevant_antiscan&amp;utm_relevant_index=10</p>
+<p>https://wherelse.cc/post/config-gitalk-in-the-gridea/</p>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2022</h2>
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zhangthird.github.io/post/ao-men-da-xue/">
+                  <h3 class="post-title">
+                    澳门大学認知神經科學
+                  </h3>
+                </a>
+              </div>
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://zhangthird.github.io/post/guan-yu-ping-tai/">
-                      <h2 class="post-title">
-                        关于平台
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://zhangthird.github.io/post/ao-men-da-xue/">
-                      <h2 class="post-title">
-                        澳门大学認知神經科學
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://zhangthird.github.io/post/dian-zi-ke-ji-da-xue-083100-sheng-wu-yi-xue-gong-cheng/">
-                      <h2 class="post-title">
-                        电子科技大学  083100生物医学工程
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://zhangthird.github.io/post/di-yi-pian-bo-ke/">
-                      <h2 class="post-title">
-                        第一篇博客
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -166,6 +153,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '0aca054aaaf77b4db59b',
+        clientSecret: '97220f3ef9e4de122de87e4ebf1f43ecf018e33a',
+        repo: 'zhangthird.github.io',
+        owner: 'zhangthird',
+        admin: ['zhangthird'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
