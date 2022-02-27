@@ -8,9 +8,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://zhangthird.github.io/favicon.ico?v=1645950085638">
+<link rel="shortcut icon" href="https://zhangthird.github.io/favicon.ico?v=1645958941133">
 <link rel="stylesheet" href="https://zhangthird.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -30,7 +36,7 @@ A start！
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://zhangthird.github.io">
-        <img src="https://zhangthird.github.io/images/avatar.png?v=1645950085638" class="site-logo">
+        <img src="https://zhangthird.github.io/images/avatar.png?v=1645958941133" class="site-logo">
         <h1 class="site-title">张山</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -108,6 +114,12 @@ A start！
             
 
             
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
 
           </div>
 
@@ -130,6 +142,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '0aca054aaaf77b4db59b',
+        clientSecret: '97220f3ef9e4de122de87e4ebf1f43ecf018e33a',
+        repo: 'zhangthird.github.io',
+        owner: 'zhangthird',
+        admin: ['zhangthird'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
