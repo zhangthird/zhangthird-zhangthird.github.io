@@ -1,116 +1,111 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" >
 
 <title>澳门大学認知神經科學 | 张山</title>
 
-<link rel="shortcut icon" href="https://zhangthird.github.io/favicon.ico?v=1646053961737">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://zhangthird.github.io/favicon.ico?v=1646054013723">
 <link rel="stylesheet" href="https://zhangthird.github.io/styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
-</head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="/">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            张山
-        </div>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
-            
-            <div class="nav-item">
-                
-                <a href="https://zhangthird.github.io" class="menu gt-a-link">
-                    首页
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://zhangthird.github.io/archives" class="menu gt-a-link">
-                    归档
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://zhangthird.github.io/tags" class="menu gt-a-link">
-                    标签
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://zhangthird.github.io/post/about" class="menu gt-a-link">
-                    关于
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1646053961737"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="
+The Master of Science in Cognitive Neuroscience is a 2-year postgraduate programme that aims to train students with inn..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://zhangthird.github.io">
+        <img src="https://zhangthird.github.io/images/avatar.png?v=1646054013723" class="site-logo">
+        <h1 class="site-title">张山</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
+    <div>
+      
+        
+          <a href="https://zhangthird.github.io" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://zhangthird.github.io/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://zhangthird.github.io/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://zhangthird.github.io/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/zhangthird" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <h2>谁家新燕啄春泥<h2>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://zhangthird.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    澳门大学認知神經科學
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2022-02-26 ·
-                    </time>
-                    
-                </div>
-                <div class="post-content">
-                    <figure data-type="image" tabindex="1"><img src="https://mmbiz.qpic.cn/mmbiz_png/AeBQSicBOIeGNrFUbeS2N4Tv8QibebBGYB9U9gxdibBv5N4fQe9nEUPGtMM8uKq1X08QgMHQcHWibAY8piaFGw7XoSg/640?wx_fmt=png" alt="" loading="lazy"></figure>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">澳门大学認知神經科學</h2>
+            <div class="post-date">2022-02-26</div>
+            
+            <div class="post-content" v-pre>
+              <figure data-type="image" tabindex="1"><img src="https://mmbiz.qpic.cn/mmbiz_png/AeBQSicBOIeGNrFUbeS2N4Tv8QibebBGYB9U9gxdibBv5N4fQe9nEUPGtMM8uKq1X08QgMHQcHWibAY8piaFGw7XoSg/640?wx_fmt=png" alt="" loading="lazy"></figure>
 <p>The Master of Science in Cognitive Neuroscience is a 2-year postgraduate programme that aims to train students with innovative approaches for inspecting brain functions in terms of neurolinguistics, neuroeducation, neuroeconomics, neuroimaging, brain-inspired intelligence, etc. and promote translating discoveries into solutions for health and society. It works to train cognitive neuroscientists and professionals to deeply understand and integrate interdisciplinary research findings, perspectives, and tools for the study of mind, brain, and behavior.</p>
 <figure data-type="image" tabindex="2"><img src="https://mmbiz.qpic.cn/mmbiz_png/AeBQSicBOIeGNrFUbeS2N4Tv8QibebBGYB1fghiaUBsywyC50icl1auhVVIibR1w9Q5yibnuVuJ2TgbzPOdUraf7D32A/640?wx_fmt=png" alt="" loading="lazy"></figure>
 <p>理學碩士學位（認知神經科學）課程是一個為期兩年的研究生課程，旨在培養學生在神經語言學、神經教育學、神經經濟學、神經影像學、類腦智能等方面探索大腦功能的創新方法，並促進將腦科學相關研究發現轉化為解決社會和健康問題的方案。課程致力於培訓認知神經科學家和專業人士，深入理解和整合跨學科研究成果、觀點和工具，以研究思維、大腦和行為。</p>
@@ -138,88 +133,74 @@
 <p><a href="https://mp.weixin.qq.com/s?__biz=MzI0MTQxNDE5NA==&amp;mid=2247514564&amp;idx=1&amp;sn=441debe113224a798657661664fb43c3&amp;chksm=e9090099de7e898f9e57a659b493ce1e1dd3f4ead5436f8fb620ff36695ae2d204d413aef3bf&amp;scene=21#wechat_redirect">干货 | Zoey留学申请经验分享</a></p>
 <p><a href="https://mp.weixin.qq.com/s?__biz=MzI0MTQxNDE5NA==&amp;mid=2247561269&amp;idx=2&amp;sn=15916a1a1ef34028c1c79eb4e5572279&amp;chksm=e9084968de7fc07e3b34b4f8fa4cef99806edf660cd715e6cac665962ce9dcda822e09ae12ea&amp;scene=21#wechat_redirect">公益讲座 | 美国州立大学教授教你如何写套瓷邮件</a></p>
 
-                </div>
-            </article>
-        </div>
-
-        
-            <div class="next-post">
-                <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://zhangthird.github.io/post/dian-zi-ke-ji-da-xue-083100-sheng-wu-yi-xue-gong-cheng/" class="post-title gt-a-link">
-                    电子科技大学  083100生物医学工程
-                </a>
             </div>
-        
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zhangthird.github.io/post/dian-zi-ke-ji-da-xue-083100-sheng-wu-yi-xue-gong-cheng/">
+                  <h3 class="post-title">
+                    电子科技大学  083100生物医学工程
+                  </h3>
+                </a>
+              </div>
+            
 
-        
-            <span id="/post/ao-men-da-xue/" class="leancloud_visitors" data-flag-title="澳门大学認知神經科學">
-                <em class="post-meta-item-text">阅读量 </em>
-                <i class="leancloud-visitors-count">0</i>
-            </span>
-        
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
 
-        
+              
+            
 
-        
-            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+          </div>
 
-<style>
-	div#vcomments{
-		width:100%;
-		max-width: 1000px;
-		padding: 2.5%
-	}
-</style>
+        </div>
+      </div>
+    </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-	<div id="vcomments"></div>
+AOS.init();
 
-<script>
-	new Valine({
-		el: '#vcomments',
-		appId: '',
-		appKey: '',
-		avatar: '',
-		pageSize: 5,
-		recordIp: true,
-		placeholder: 'Just Go Go',
-		visitor: true,
-	});
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-        
 
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first"><h2>谁家新燕啄春泥<h2></div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </div>
-    <div class="footer-info">
-        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://zhangthird.github.io/atom.xml" target="_blank">RSS</a></a>
-    </div>
-</div>
 
-<script>
-  hljs.highlightAll()
-</script>
 
-    </div>
-</div>
-</body>
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '0aca054aaaf77b4db59b',
+        clientSecret: '97220f3ef9e4de122de87e4ebf1f43ecf018e33a',
+        repo: 'zhangthird.github.io',
+        owner: 'zhangthird',
+        admin: ['zhangthird'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
 </html>
