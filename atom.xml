@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangthird.github.io</id>
     <title>张山</title>
-    <updated>2022-02-28T16:01:06.410Z</updated>
+    <updated>2022-03-13T03:52:17.756Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangthird.github.io"/>
     <link rel="self" href="https://zhangthird.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://zhangthird.github.io/images/avatar.png</logo>
     <icon>https://zhangthird.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 张山</rights>
+    <entry>
+        <title type="html"><![CDATA[我的思考与想法]]></title>
+        <id>https://zhangthird.github.io/post/wo-de-si-kao-yu-xiang-fa/</id>
+        <link href="https://zhangthird.github.io/post/wo-de-si-kao-yu-xiang-fa/">
+        </link>
+        <updated>2022-03-13T03:50:01.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>你的时光悠悠，你想要留住什么</li>
+<li>更多的时间来做一点工作，花时间做事情</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于平台]]></title>
         <id>https://zhangthird.github.io/post/guan-yu-ping-tai/</id>
