@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangthird.github.io</id>
     <title>张山</title>
-    <updated>2022-04-27T13:29:58.818Z</updated>
+    <updated>2022-04-28T10:14:11.096Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangthird.github.io"/>
     <link rel="self" href="https://zhangthird.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://zhangthird.github.io/images/avatar.png</logo>
     <icon>https://zhangthird.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 张山</rights>
+    <entry>
+        <title type="html"><![CDATA[春夜宴桃李园序]]></title>
+        <id>https://zhangthird.github.io/post/chun-ye-yan-tao-li-yuan-xu/</id>
+        <link href="https://zhangthird.github.io/post/chun-ye-yan-tao-li-yuan-xu/">
+        </link>
+        <updated>2022-04-28T10:10:36.000Z</updated>
+        <content type="html"><![CDATA[<p>夫天地者万物之逆旅也；光阴者百代之过客也。<br>
+而浮生若梦，为欢几何？<br>
+古人秉烛夜游，良有以也。<br>
+况阳春召我以烟景，大块假我以文章。<br>
+会桃花之芳园，序天伦之乐事。<br>
+群季俊秀，皆为惠连；吾人咏歌，独惭康乐。<br>
+幽赏未已，高谈转清。<br>
+开琼筵以坐花，飞羽觞而醉月。<br>
+不有佳咏，何伸雅怀？<br>
+如诗不成，罚依金谷酒数。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[丘成桐的人生经历]]></title>
         <id>https://zhangthird.github.io/post/qiu-cheng-tong-de-ren-sheng-jing-li/</id>
